@@ -1,0 +1,4 @@
+time,poseType,animation,fadeTime,speed,posX,posY,posZ,rotX,rotY,rotZ,eyeMoveType,option,targetMaidSlotNo,posHeadBaseX,posHeadBaseY,posHeadBaseZ
+0.0,1,asmr_OM_isu_kousoku_kijyoui_kiss_1_m.anm,0,0.5,0,0,0,0,180,0,-1,,-1,0,0,0
+3.0,1,asmr_OM_isu_kousoku_kijyoui_1_m.anm,1.3,0.5,0,0,0,0,180,0,-1,,-1,0,0,0
+35.0,1,asmr_OM_isu_kousoku_kijyoui_2_m.anm,1.3,0.3,0,0,0,0,180,0,-1,,-1,0,0,0

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SongList>
+<!-- コメント -->
+
+  <song label="サンプル【LRCスクリプト】" type="song">
+    <folder>サンプル【LRCスクリプト】</folder>
+    <bgm>song.ogg</bgm>
+    <metronome>140</metronome>
+    <baseNote>8</baseNote>
+    <endTime>67</endTime>
+    <customMotion>camera_song.csv</customMotion>
+    <changeText>text_song.csv</changeText>
+    <changeBg>bg_song.csv</changeBg>
+    <changeLight>light_song.csv</changeLight>
+    <changeFade>fade_song.csv</changeFade>
+    <changeMaidMenu>menu_song.csv</changeMaidMenu>
+    <changeUndress>undress_song.csv</changeUndress>
+    <changeShapeKey>shape_song.csv</changeShapeKey>
+    <movePng>movePng_song.xml</movePng>
+    <maid slotNo="0">
+      <pose>pose_f_song.csv</pose>
+      <lyrics>lyrics_song.csv</lyrics>
+      <face>face_song.csv</face>
+      <mabataki>mabataki_song.csv</mabataki>
+      <eyes>eyes_song.csv</eyes>
+    </maid>
+    <man slotNo="0">
+      <pose>pose_m_song.csv</pose>
+    </man>
+  </song>
+
+</SongList>

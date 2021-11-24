@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StagePng>
+  <pngGroup label="chuC1">
+    <pngName>エフェクト用png\ちゅ.png</pngName>
+    <png startTime="0" endTime="1">
+      <position x="0.03" y="0.42" z="0.31" />
+      <rotation x="0" y="180" z="0" />
+      <scale x="0.008" y="0.008" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+  <pngGroup label="chuC2">
+    <pngName>エフェクト用png\ちゅ.png</pngName>
+    <png startTime="2" endTime="3">
+      <position x="-0.03" y="0.41" z="0.31" />
+      <rotation x="0" y="180" z="0" />
+      <scale x="0.006" y="0.006" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+
+  <pngGroup label="chuC3">
+    <pngName>エフェクト用png\ちゅ.png</pngName>
+    <png startTime="0" endTime="1">
+      <position x="0.03" y="0.40" z="0.31" />
+      <rotation x="0" y="180" z="0" />
+      <scale x="0.008" y="0.008" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+  <pngGroup label="chuC4">
+    <pngName>エフェクト用png\ちゅ.png</pngName>
+    <png startTime="2" endTime="3">
+      <position x="-0.03" y="0.39" z="0.31" />
+      <rotation x="0" y="180" z="0" />
+      <scale x="0.006" y="0.006" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+
+  <pngGroup label="chuL1">
+    <pngName>エフェクト用png\ちゅ.png</pngName>
+    <png startTime="0" endTime="1">
+      <position x="0.06" y="0.42" z="0.36" />
+      <rotation x="0" y="180" z="0" />
+      <scale x="0.008" y="0.008" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+  <pngGroup label="chuL2">
+    <pngName>エフェクト用png\ちゅ.png</pngName>
+    <png startTime="2" endTime="3">
+      <position x="0.11" y="0.38" z="0.40" />
+      <rotation x="0" y="180" z="0" />
+      <scale x="0.005" y="0.005" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+
+  <pngGroup label="chuR1">
+    <pngName>エフェクト用png\ちゅ.png</pngName>
+    <png startTime="0" endTime="1">
+      <position x="-0.04" y="0.43" z="0.36" />
+      <rotation x="0" y="180" z="0" />
+      <scale x="0.008" y="0.008" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+  <pngGroup label="chuR2">
+    <pngName>エフェクト用png\ちゅ.png</pngName>
+    <png startTime="2" endTime="3">
+      <position x="-0.08" y="0.37" z="0.40" />
+      <rotation x="0" y="180" z="0" />
+      <scale x="0.005" y="0.005" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+
+  <pngGroup label="nC1">
+    <pngName>エフェクト用png\んっ.png</pngName>
+    <png startTime="0" endTime="1">
+      <position x="-0.10" y="0.37" z="0.36" />
+      <rotation x="0" y="180" z="320" />
+      <scale x="0.03" y="0.03" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+  <pngGroup label="nC2">
+    <pngName>エフェクト用png\んっ.png</pngName>
+    <png startTime="0" endTime="1">
+      <position x="0.10" y="0.39" z="0.36" />
+      <rotation x="0" y="180" z="35" />
+      <scale x="0.03" y="0.03" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+
+  <pngGroup label="nL1">
+    <pngName>エフェクト用png\んっ.png</pngName>
+    <png startTime="0" endTime="1">
+      <position x="0.00" y="0.45" z="0.36" />
+      <rotation x="0" y="180" z="0" />
+      <scale x="0.04" y="0.04" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+  <pngGroup label="nL2">
+    <pngName>エフェクト用png\んっ.png</pngName>
+    <png startTime="0" endTime="1">
+      <position x="0.15" y="0.33" z="0.40" />
+      <rotation x="0" y="180" z="44" />
+      <scale x="0.03" y="0.03" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+
+  <pngGroup label="nR1">
+    <pngName>エフェクト用png\んっ.png</pngName>
+    <png startTime="0" endTime="1">
+      <position x="0.02" y="0.46" z="0.36" />
+      <rotation x="0" y="180" z="0" />
+      <scale x="0.04" y="0.04" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+  <pngGroup label="nR2">
+    <pngName>エフェクト用png\んっ.png</pngName>
+    <png startTime="0" endTime="1">
+      <position x="-0.20" y="0.35" z="0.36" />
+      <rotation x="0" y="180" z="340" />
+      <scale x="0.03" y="0.03" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+
+  <pngGroup label="guchuC1">
+    <pngName>エフェクト用png\ぐちゅ.png</pngName>
+    <png startTime="1" endTime="3">
+      <position x="0.10" y="0.37" z="0.36" />
+      <rotation x="0" y="180" z="24" />
+      <scale x="0.03" y="0.03" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+  <pngGroup label="guchuC2">
+    <pngName>エフェクト用png\ぐちゅ.png</pngName>
+    <png startTime="4" endTime="6">
+      <position x="-0.11" y="0.37" z="0.36" />
+      <rotation x="0" y="180" z="11" />
+      <scale x="0.03" y="0.03" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+
+  <pngGroup label="guchuL1">
+    <pngName>エフェクト用png\ぐちゅ.png</pngName>
+    <png startTime="1" endTime="3">
+      <position x="0.00" y="0.44" z="0.36" />
+      <rotation x="0" y="180" z="0" />
+      <scale x="0.04" y="0.04" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+  <pngGroup label="guchuL2">
+    <pngName>エフェクト用png\ぐちゅ.png</pngName>
+    <png startTime="4" endTime="6">
+      <position x="0.18" y="0.32" z="0.40" />
+      <rotation x="0" y="180" z="22" />
+      <scale x="0.03" y="0.03" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+
+  <pngGroup label="guchuR1">
+    <pngName>エフェクト用png\ぐちゅ.png</pngName>
+    <png startTime="1" endTime="3">
+      <position x="0.01" y="0.45" z="0.36" />
+      <rotation x="0" y="180" z="22" />
+      <scale x="0.04" y="0.04" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+  <pngGroup label="guchuR2">
+    <pngName>エフェクト用png\ぐちゅ.png</pngName>
+    <png startTime="4" endTime="6">
+      <position x="-0.19" y="0.33" z="0.40" />
+      <rotation x="0" y="180" z="22" />
+      <scale x="0.03" y="0.03" z="0" />
+      <isBillboard>1</isBillboard>
+    </png>
+  </pngGroup>
+  
+</StagePng>

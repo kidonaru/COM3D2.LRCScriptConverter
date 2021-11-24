@@ -1,0 +1,153 @@
+[00:00.00]#METRONOME:140 #BASE_NOTE:8 #END_TIME:67
+[00:00.00]#OFFSET:0
+
+[00:00.00]## ポーズ定義
+[00:00.00]## @param ブレンド時間(秒)
+[00:00.00]##           #POSE_F:time,poseType,animation,fadeTime,speed,posX,posY,posZ,rotX,rotY,rotZ,eyeMoveType,option
+[00:00.00]##           #POSE_M:time,poseType,animation,fadeTime,speed,posX,posY,posZ,rotX,rotY,rotZ,eyeMoveType,option,targetMaidSlotNo,posHeadBaseX,posHeadBaseY,posHeadBaseZ
+[00:00.00]#POSE_T1   = #POSE_F:$now,1,asmr_OM_isu_kousoku_kijyoui_taiki_f.anm,$1,1,0,0,0,0,180,0,6,breathoff
+[00:00.00]#POSE_T1  += #POSE_M:$now,1,asmr_OM_isu_kousoku_kijyoui_taiki_m.anm,$1,1,0,0,0,0,180,0,-1,,-1,0,0,0
+[00:00.00]#POSE_C1   = #POSE_F:$now,1,asmr_OM_isu_kousoku_kijyoui_kiss_1_f.anm,$1,0.5,0,0,0,0,180,0,6,breathoff
+[00:00.00]#POSE_C1  += #POSE_M:$now,1,asmr_OM_isu_kousoku_kijyoui_kiss_1_m.anm,$1,0.5,0,0,0,0,180,0,-1,,-1,0,0,0
+[00:00.00]#POSE_C2   = #POSE_F:$now,1,asmr_OM_isu_kousoku_kijyoui_kiss_2_f.anm,$1,1.0,0,0,0,0,180,0,6,breathon
+[00:00.00]#POSE_C2  += #POSE_M:$now,1,asmr_OM_isu_kousoku_kijyoui_kiss_2_m.anm,$1,1.0,0,0,0,0,180,0,-1,,-1,0,0,0
+[00:00.00]#POSE_C3   = #POSE_F:$now,1,asmr_OM_isu_kousoku_kijyoui_kiss_3_f.anm,$1,1.0,0,0,0,0,180,0,6,breathon
+[00:00.00]#POSE_C3  += #POSE_M:$now,1,asmr_OM_isu_kousoku_kijyoui_kiss_3_m.anm,$1,1.0,0,0,0,0,180,0,-1,,-1,0,0,0
+[00:00.00]#POSE_R1   = #POSE_F:$now,1,asmr_OM_isu_kousoku_kijyoui_1_f.anm,$1,0.5,0,0,0,0,180,0,6,breathoff
+[00:00.00]#POSE_R1  += #POSE_M:$now,1,asmr_OM_isu_kousoku_kijyoui_1_m.anm,$1,0.5,0,0,0,0,180,0,-1,,-1,0,0,0
+[00:00.00]#POSE_R2   = #POSE_F:$now,1,asmr_OM_isu_kousoku_kijyoui_1_f.anm,$1,1.0,0,0,0,0,180,0,6,breathon
+[00:00.00]#POSE_R2  += #POSE_M:$now,1,asmr_OM_isu_kousoku_kijyoui_1_m.anm,$1,1.0,0,0,0,0,180,0,-1,,-1,0,0,0
+[00:00.00]#POSE_L1   = #POSE_F:$now,1,asmr_OM_isu_kousoku_kijyoui_2_f.anm,$1,0.3,0,0,0,0,180,0,6,breathoff
+[00:00.00]#POSE_L1  += #POSE_M:$now,1,asmr_OM_isu_kousoku_kijyoui_2_m.anm,$1,0.3,0,0,0,0,180,0,-1,,-1,0,0,0
+[00:00.00]#POSE_L2   = #POSE_F:$now,1,asmr_OM_isu_kousoku_kijyoui_2_f.anm,$1,0.6,0,0,0,0,180,0,6,breathon
+[00:00.00]#POSE_L2  += #POSE_M:$now,1,asmr_OM_isu_kousoku_kijyoui_2_m.anm,$1,0.6,0,0,0,0,180,0,-1,,-1,0,0,0
+
+[00:00.00]## 表情定義
+[00:00.00]##           #FACE:time,face,blend
+[00:00.00]#FACE_A1   = #FACE:$now,エロ好感２,頬２涙０
+[00:00.00]#FACE_A2   = #FACE:$now,エロ興奮３,頬２涙０
+[00:00.00]#FACE_A3   = #FACE:$now,接吻,頬２涙０
+[00:00.00]#FACE_B1   = #FACE:$now,エロ好感２,頬３涙０よだれ
+[00:00.00]#FACE_B2   = #FACE:$now,エロ興奮３,頬３涙０よだれ
+[00:00.00]#FACE_B3   = #FACE:$now,接吻,頬３涙０よだれ
+
+[00:00.00]## 脱衣定義
+[00:00.00]## @param マスク 1でSlot非表示、0で表示
+[00:00.00]##                 #UNDRESS:label,maidSlotNo,time,isMask
+[00:00.00]#UNDRESS_WEAR    = #UNDRESS:wear,0,$now,$1
+[00:00.00]#UNDRESS_WEAR   += #UNDRESS:onepiece,0,$now,$1
+[00:00.00]#UNDRESS_PANZ    = #UNDRESS:panz,0,$now,$1
+
+[00:00.00]## シェイプキー変更定義
+[00:00.00]##               #SHAPE:stTime,edTime,maidSlotNo,tag,slot,minSize,maxSize,outInterval,inInterval,outKeepTime,inKeepTime,outEasing,inEasing,isOneWay,isReverse
+[00:00.00]#SHAPE_KUPA_1  = #SHAPE:$now,$csv_next,0,kupa,body,0,90,0.25,250,0,0,0,0,0,0
+[00:00.00]#SHAPE_KUPA_2  = #SHAPE:$now,$csv_next,0,kupa,body,75,90,0.4,0.4,0,0,0,0,0,0
+[00:00.00]#SHAPE_KUPA_3  = #SHAPE:$now,$csv_next,0,kupa,body,90,95,0.1,0.1,0,0,0,0,0,0
+[00:00.00]#SHAPE_KUPA_4  = #SHAPE:$now,$($now+0.5),0,kupa,body,0,90,0,0.5,0,0,0,0,0,1
+
+[00:00.00]## まばたき定義
+[00:00.00]##              #MABATAKI:startFrame,endFrame
+[00:00.00]#MABATAKI_ON  = #MABATAKI:$frame,$csv_next_frame
+[00:00.00]#MABATAKI_OFF = #MABATAKI
+
+[00:00.00]## 瞳定義
+[00:00.00]##            #EYES:type,startTime,startHorizon,startVertical,endTime,endHorizon,endVertical,easing
+[00:00.00]#EYES_0     = #EYES:0,$now,0,0,$csv_next,0,0,0
+[00:00.00]#EYES_0    += #EYES:1,$now,0,0,$csv_next,0,0,0
+[00:00.00]#EYES_L1    = #EYES:0,$now,0.6,0,$csv_next,0.6,0,0
+[00:00.00]#EYES_L1   += #EYES:1,$now,0.6,0,$csv_next,0.6,0,0
+
+[00:00.00]## 基本フェード定義
+[00:00.00]## @param フェード時間(秒)
+[00:00.00]##            #FADE:stTime,edTime,inTime,outTime,isWhite
+[00:00.00]#FADE_START = #FADE:0,0.1,0,$1,0                   ## 曲開始フェード
+[00:00.00]#FADE_END   = #FADE:$($end-$1-1),$($end+1),$1,0,0  ## 曲終了フェード
+
+[00:00.00]## フェード定義
+[00:00.00]## @param フェード時間(秒)
+[00:00.00]## @param 継続時間(秒)
+[00:00.00]##            #FADE:stTime,edTime,inTime,outTime,isWhite
+[00:00.00]#FADE_BLACK = #FADE:$now,$($now+$1+$2),$1,$1,0     ## ブラックフェード
+[00:00.00]#FADE_WHITE = #FADE:$now,$($now+$1+$2),$1,$1,1     ## ホワイトフェード
+
+[00:00.00]## カメラ定義
+[00:00.00]##           #CAMERA:frame,posX,posY,posZ,rotX,RotY,rotZ,distance,viewAngle,easing
+[00:00.00]#CAMERA_1  = #CAMERA:$frame,0.00,1.85,1.97,10.00,180.00,0.00,0,45,0
+[00:00.00]#CAMERA_2  = #CAMERA:$frame,-0.02,0.24,0.70,326.75,177.42,1.19,0,45,0
+
+[00:00.00]## 背景定義
+[00:00.00]##           #BG:bgName,group,time,posX,posY,posZ,rotX,rotY,rotZ,scale
+[00:00.00]#BG_1      = #BG:ShinShitsumu,1,$now,0,-0.740,-3.00,0,180,0,1     ## 執務室
+[00:00.00]#BG_2      = #BG:HeroineRoom_A1,1,$now,0,-0.721,-2.252,0,180,0,1  ## 無垢部屋
+
+[00:00.00]## メニュー変更定義
+[00:00.00]##                #MENU:tag,menu,slotNo,time
+[00:00.00]#MENU_EYE_HI_1  = #MENU:eye_hi,light_6.menu,0,$now    ## ハートのハイライト
+[00:00.00]#MENU_EYE_HI_1 += #MENU:eye_hi_r,light_6.menu,0,$now  ## ハートのハイライト
+
+[00:00.00]## 照明定義
+[00:00.00]##          #LIGHT:type,group,stTime,stPosX,stPosY,stPosZ,stRotX,stRotY,stRotZ,stColR,stColR,stColB,edTime,edPosX,edPosY,edPosZ,edRotX,edRotY,edRotZ,edColR,edColG,edColB,option,range,intensity,spotAngle,maidSlotNo
+[00:00.00]#LIGHT_1  = #LIGHT:Directional,0,$now,0,0,0,40,180,18,255,255,255,$csv_next,0,0,0,40,180,18,255,255,255,mainlightoff,1,0.950,0,-1
+[00:00.00]#LIGHT_2  = #LIGHT:Directional,0,$now,0,0,0,14,180,18,255,255,255,$csv_next,0,0,0,14,180,18,255,255,255,mainlightoff,1,0.950,0,-1
+
+[00:00.00]## 字幕定義
+[00:00.00]## @param 字幕内容
+[00:00.00]##           #TEXT:index,text,font,fontSize,stTime,stPosX,stPosY,stRotZ,stScaX,stScaY,stColR,stColG,stColB,stColA,edTime,edPosX,edPosY,edRotZ,edScaX,edScaY,edColR,edColG,edColB,edColA,easing,lineSpacing,alignment,sizeDeltaX,sizeDeltaY
+[00:00.00]#TEXT_1    = #TEXT:0,$1,Yu Gothic Bold,50,$now,0,-500,0,1,1,255,255,255,200,$next,0,-500,0,1,1,255,255,255,200,0,50,4,1000,10
+[00:00.00]#TEXT_2    = #TEXT:0,$1,Yu Gothic Bold,50,$now,3,-503,0,1,1,0,0,0,100,$next,3,-503,0,1,1,0,0,0,100,0,50,4,1000,10
+[00:00.00]#TEXT_2   += #TEXT:1,$1,Yu Gothic Bold,50,$now,0,-500,0,1,1,255,255,255,255,$next,0,-500,0,1,1,255,255,255,255,0,50,4,1000,10
+
+[00:00.00]## 画像定義
+[00:00.00]##               #MOVE_PNG:label,generateType,loopTime
+[00:00.00]#PNG_CHU_C1    = #MOVE_PNG:chuC1,repeat,4
+[00:00.00]#PNG_CHU_C1   += #MOVE_PNG:chuC2,repeat,4
+[00:00.00]#PNG_CHU_C2    = #MOVE_PNG:chuC3,repeat,4
+[00:00.00]#PNG_CHU_C2   += #MOVE_PNG:chuC4,repeat,4
+[00:00.00]#PNG_CHU_R1    = #MOVE_PNG:chuR1,repeat,4
+[00:00.00]#PNG_CHU_R1   += #MOVE_PNG:chuR2,repeat,4
+[00:00.00]#PNG_CHU_L1    = #MOVE_PNG:chuL1,repeat,4
+[00:00.00]#PNG_CHU_L1   += #MOVE_PNG:chuL2,repeat,4
+[00:00.00]#PNG_N_C1      = #MOVE_PNG:nC1,repeat,0
+[00:00.00]#PNG_N_C2      = #MOVE_PNG:nC2,repeat,0
+[00:00.00]#PNG_N_R1      = #MOVE_PNG:nR1,repeat,0
+[00:00.00]#PNG_N_R2      = #MOVE_PNG:nR2,repeat,0
+[00:00.00]#PNG_N_L1      = #MOVE_PNG:nL1,repeat,0
+[00:00.00]#PNG_N_L2      = #MOVE_PNG:nL2,repeat,0
+[00:00.00]#PNG_GUCHU_C1  = #MOVE_PNG:guchuC1,repeat,6
+[00:00.00]#PNG_GUCHU_C1 += #MOVE_PNG:guchuC2,repeat,6
+[00:00.00]#PNG_GUCHU_C1 += #MOVE_PNG:chuC1,repeat,4
+[00:00.00]#PNG_GUCHU_C1 += #MOVE_PNG:chuC2,repeat,4
+[00:00.00]#PNG_GUCHU_R1  = #MOVE_PNG:guchuR1,repeat,6
+[00:00.00]#PNG_GUCHU_R1 += #MOVE_PNG:guchuR2,repeat,6
+[00:00.00]#PNG_GUCHU_R1 += #MOVE_PNG:chuR1,repeat,4
+[00:00.00]#PNG_GUCHU_R1 += #MOVE_PNG:chuR2,repeat,4
+[00:00.00]#PNG_GUCHU_L1  = #MOVE_PNG:guchuL1,repeat,6
+[00:00.00]#PNG_GUCHU_L1 += #MOVE_PNG:guchuL2,repeat,6
+[00:00.00]#PNG_GUCHU_L1 += #MOVE_PNG:chuL1,repeat,4
+[00:00.00]#PNG_GUCHU_L1 += #MOVE_PNG:chuL2,repeat,4
+
+[00:00.00]## 開始処理
+[00:00.00]#BG_1 #LIGHT_2 #CAMERA_2 #MABATAKI_ON #FADE_START:2
+[00:00.00]           #FACE_A1 #POSE_C1:0
+
+[00:00.00]## 演出内容
+[00:03.00]ぽーずへんこう      #POSE_R1:1.3 #TEXT_2:ポーズ変更
+[00:08.00]ん         #FACE_A2              #TEXT_2:表情変更 #PNG_N_R1
+[00:13.00](くちぱくしません)               #TEXT_2:()内の文字は口パクしません
+[00:18.00]きす                             #TEXT_2:キス
+[00:20.00](きす){ABC}#FACE_A3              #TEXT_2:{}内の口パクはループします #PNG_CHU_R1
+[00:25.00]           #FACE_A1
+[00:25.00]まばたきむこう      #MABATAKI_OFF#TEXT_2:まばたき無効
+[00:30.00]まばたきゆうこう    #MABATAKI_ON #TEXT_2:まばたき有効
+[00:35.00]ぽーずへんこう      #POSE_L1:1.3 #TEXT_2:ポーズ変更
+[00:40.00](なめ){DEF}#FACE_B3              #TEXT_2:舐め #PNG_GUCHU_L1
+[00:45.00]           #FACE_B2
+[00:45.00]ふえーどあうと      #FADE_WHITE:2,0 #TEXT_2:フェードアウト&脱衣
+[00:47.00]ーーだつい          #UNDRESS_WEAR:1 #TEXT_2:フェードアウト&脱衣
+[00:52.00]めにゆーへんこう    #MENU_EYE_HI_1  #TEXT_2:メニュー変更
+[00:57.00]しようめいへんこう  #LIGHT_1        #TEXT_2:照明変更
+[01:02.00]かめらへんこう      #CAMERA_2       #TEXT_2:カメラ変更
+[01:07.00]                    #CAMERA_1
+
+[01:07.00]## 終了処理
+[01:07.00]#FADE_END:2

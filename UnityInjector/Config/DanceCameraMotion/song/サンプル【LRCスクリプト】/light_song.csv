@@ -1,0 +1,3 @@
+type,group,stTime,stPosX,stPosY,stPosZ,stRotX,stRotY,stRotZ,stColR,stColR,stColB,edTime,edPosX,edPosY,edPosZ,edRotX,edRotY,edRotZ,edColR,edColG,edColB,option,range,intensity,spotAngle,maidSlotNo
+Directional,0,0.0,0,0,0,14,180,18,255,255,255,57.0,0,0,0,14,180,18,255,255,255,mainlightoff,1,0.950,0,-1
+Directional,0,57.0,0,0,0,40,180,18,255,255,255,67.0,0,0,0,40,180,18,255,255,255,mainlightoff,1,0.950,0,-1

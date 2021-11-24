@@ -1,0 +1,4 @@
+stTime,edTime,inTime,outTime,isWhite
+0,0.1,0,2,0
+45.0,47.0,2,2,1
+64.0,68.0,2,0,0
