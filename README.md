@@ -158,11 +158,11 @@ https://com3d2-shop.s-court.me/item.php?iid=1501
   - LRCスクリプト本体です。
   コンバーターを実行すると、このスクリプトを元に演出用csvを吐き出します
 
-- *lrc2dcm.bat*
+- *lrc_script_converter.bat*
   - コンバーターを実行するバッチです。
-  実際のコードは*lrc2dcm.py*にあり、このバッチは*lrc2dcm.py*を実行しているだけです
+  実際のコードは*lrc_script_converter.py*にあり、このバッチは*lrc_script_converter.py*を実行しているだけです
 
-- *lrc2dcm.py*
+- *lrc_script_converter.py*
   - Pythonで書かれたコンバーターの中身です。
   実行ディレクトリ内のLRCスクリプトを検索し、コンバートを実行しています
 
@@ -172,7 +172,7 @@ https://com3d2-shop.s-court.me/item.php?iid=1501
 
 ## コンバート方法
 
-*lrc2dcm.bat*を実行するとコマンドプロンプトが立ち上がり
+*lrc_script_converter.bat*を実行するとコマンドプロンプトが立ち上がり
 下記の内容が出力され、csvが吐き出されます。
 
 ```
@@ -227,7 +227,7 @@ LRCスクリプトを使用した曲を追加するときの参考手順にな�
 `COM3D2\Sybaris\UnityInjector\Config\DanceCameraMotion\song\[曲名]\song.ogg`
 を任意の曲に差し替えます。
 
-*lrc2dcm.bat*を実行し、エラーが無いことを確認します。
+*lrc_script_converter.bat*を実行し、エラーが無いことを確認します。
 
 あとはDCMで[曲名]を選択して再生できれば土台の作成は完了です。
 
@@ -357,7 +357,7 @@ https://ja.vessoft.com/software/windows/download/mediago
 作業の流れとしては、
 
 1. *song.lrc*の修正
-2. *lrc2dcm.bat*を実行
+2. *lrc_script_converter.bat*を実行
 3. DCMで再生して確認
 
 を繰り返して演出を作っていきます。
